@@ -9,7 +9,6 @@
  */
 public class SuperTest04 {
     public static void main(String[] args) {
-
         Vip1 v = new Vip1("张三");
         v.shop();
     }
@@ -28,7 +27,8 @@ class User1{
 
 }
 class Vip1 extends User1{
-    String name;
+//    在子类中如果想访问父类中的同名属性，必须使用 super
+String name;
     public Vip1() {
     }
 
