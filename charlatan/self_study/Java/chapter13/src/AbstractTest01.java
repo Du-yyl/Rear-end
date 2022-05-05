@@ -3,9 +3,7 @@
  * ClassName: AbstractTest01
  * Package: PACKAGE_NAME
  *
- * @author :charlatan
- * <p>
- * Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.
+ * @author :charlatan <p> Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.
  */
 public class AbstractTest01 {
     public static void main(String[] args) {
@@ -25,24 +23,23 @@ public class AbstractTest01 {
             特点1：没有方法体，以分号结尾。
             特点2：前面修饰符列表中有abstract关键字。
         抽象类中不一定有抽象方法，抽象方法必须出现在抽象类中。
-        抽象类中的抽象方法如果被子类继承，那么子类必须要对抽象的方法进行实现
+        一个非抽象类如果实现了抽象类，那么非抽象类必须要对抽象的方法进行实现
  */
     }
 }
 
 abstract class Account {
     String name;
-
     //    定义抽象方法，继承的子类必须实现
     public abstract void doSome();
 }
 
 abstract class CredAccount extends Account {
-
-
+//    抽象方法还可以再进行抽象
 }
 
 class Cred extends CredAccount {
+    //    非抽象方法进行实现时，必须将抽象方法都进行实现
     @Override
     public void doSome() {
         System.out.println("doSome");

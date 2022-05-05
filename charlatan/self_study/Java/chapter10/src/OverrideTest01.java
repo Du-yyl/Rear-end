@@ -23,7 +23,6 @@ class Animal {
 }
 
 class Dog {
-    @Override
     public void move() {
         System.out.println("狗移动。。。");
     }
