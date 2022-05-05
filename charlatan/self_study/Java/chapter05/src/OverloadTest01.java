@@ -12,9 +12,9 @@ public class OverloadTest01 {
         /*
         方法的重载（方法重写）
          */
-        System.out.println(sam(1,2));
-        System.out.println(sam(1.2,2.4));
-        System.out.println(sam(1L,2L));
+        System.out.println(sam(1, 2));
+        System.out.println(sam(1.2, 2.4));
+        System.out.println(sam(1L, 2L));
     }
 
     public static int sam(int x, int y) {

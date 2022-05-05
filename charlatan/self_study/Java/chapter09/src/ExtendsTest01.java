@@ -12,8 +12,8 @@ public class ExtendsTest01 {
         /*
         如果没有继承两个相似的类要书写相同或大量类似的方法，代码复用差
          */
-        A1 a = new A1(12,"测试");
-        B1 b = new B1(23,"测试2",34);
+        A1 a = new A1(12, "测试");
+        B1 b = new B1(23, "测试2", 34);
         System.out.println(a.getName());
         System.out.println(b.getNo());
 

@@ -12,14 +12,15 @@ public class ExtendsTest02 {
         /*
         使用继承提升代码的复用性
          */
-        A2 a = new A2(12,"测试");
+        A2 a = new A2(12, "测试");
         System.out.println(a.getName());
         B2 b1 = new B2(12);
         b1.sayName();
         B2.syaHello();
     }
 }
-class A2{
+
+class A2 {
     private int no;
     private String name;
 
@@ -47,15 +48,16 @@ class A2{
         this.name = name;
     }
 
-    public void sayName(){
+    public void sayName() {
         System.out.println("name");
     }
-    public static void syaHello(){
+
+    public static void syaHello() {
         System.out.println("syaHello");
     }
 }
 
-class B2 extends A2{
+class B2 extends A2 {
     private int id;
 
     public B2(int id) {

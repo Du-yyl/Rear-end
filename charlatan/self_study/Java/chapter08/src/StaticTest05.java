@@ -14,14 +14,16 @@ public class StaticTest05 {
     static {
         System.out.println("测试内容");
     }
+
     static {
         System.out.println("静态代码块可以写多个");
     }
+
     public static void main(String[] args) {
         System.out.println("静态代码块在main方法执行之前执行");
     }
+
     static {
         System.out.println("静态代码块不用在意书写位置，静态代码块永远最先执行");
     }
 }
-

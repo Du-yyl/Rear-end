@@ -11,7 +11,7 @@ public class WhileTest01 {
     public static void main(String[] args) {
         int i = 0;
 //        while 先判断再执行【可能一次也不执行】
-        while(i < 10){
+        while (i < 10) {
             i++;
             System.out.println("测试");
         }
@@ -19,7 +19,7 @@ public class WhileTest01 {
         do {
             System.out.println("测试的例子");
             i++;
-        }while (false);
+        } while (false);
 
     }
 }

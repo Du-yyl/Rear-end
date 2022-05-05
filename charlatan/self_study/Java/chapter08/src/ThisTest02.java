@@ -35,7 +35,7 @@ class Date {
 //        实际上是通过一个构造方法调用另一个构造方法
 //        this（）这种方式只能在构造方法中只能出现一行，只能出现一行
 
-        this(1970,1,1);
+        this(1970, 1, 1);
     }
 
     public Date(int year, int mouth, int day) {

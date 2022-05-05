@@ -9,8 +9,8 @@
  */
 public class StaticTest03 {
     public static void main(String[] args) {
-        User2 u1 = new User2(123,"张三");
-        User2 u2 = new User2(321,"李四");
+        User2 u1 = new User2(123, "张三");
+        User2 u2 = new User2(321, "李四");
         System.out.println(u1.name);
         System.out.println(u1.guoji);
     }

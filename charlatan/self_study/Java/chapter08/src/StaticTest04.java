@@ -9,8 +9,8 @@
  */
 public class StaticTest04 {
     public static void main(String[] args) {
-        User3 u1 = new User3(123,"张三");
-        User3 u2 = new User3(321,"李四");
+        User3 u1 = new User3(123, "张三");
+        User3 u2 = new User3(321, "李四");
         System.out.println(u1.name);
         u1 = null;
 //        使用引用访问类中的数据，可以进行访问，但是底层还是转换为了类名的方式进行的调用，所以不建议这么写
@@ -19,14 +19,16 @@ public class StaticTest04 {
     }
 }
 
-class User3{
+class User3 {
     int id;
     String name;
     static String guoji = "相同的内容";
-    public User3(){
+
+    public User3() {
 
     }
-    public User3(int num,String str){
+
+    public User3(int num, String str) {
         id = num;
         name = str;
     }

@@ -1,5 +1,3 @@
-import java.lang.reflect.Constructor;
-
 /**
  * time: 2022/4/30 16:23 06
  * ClassName: NullPointerTest01
@@ -19,6 +17,7 @@ public class NullPointerTest01 {
 
     }
 }
-class User{
+
+class User {
     int id;
 }

@@ -59,7 +59,7 @@ public class BinaryCommonMethod {
      * @param num 要计算的数字
      * @return 返回结果
      */
-    public static boolean is_power_of_two(int num){
+    public static boolean is_power_of_two(int num) {
         return num > 0 && (num & (num - 1)) == 0;
     }
 }

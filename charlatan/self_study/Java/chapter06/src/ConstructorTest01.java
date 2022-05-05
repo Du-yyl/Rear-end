@@ -14,13 +14,16 @@ public class ConstructorTest01 {
 
     }
 }
-class Vip{
+
+class Vip {
     int no;
     String name;
-    public Vip(){
+
+    public Vip() {
         System.out.println("模拟缺省构造器");
     }
-    public Vip(int num){
+
+    public Vip(int num) {
         System.out.println("只有一个参数的构造器");
         no = num;
     }

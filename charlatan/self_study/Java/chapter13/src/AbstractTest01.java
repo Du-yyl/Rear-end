@@ -30,6 +30,7 @@ public class AbstractTest01 {
 
 abstract class Account {
     String name;
+
     //    定义抽象方法，继承的子类必须实现
     public abstract void doSome();
 }

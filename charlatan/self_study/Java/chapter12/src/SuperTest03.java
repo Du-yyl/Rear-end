@@ -13,7 +13,8 @@ public class SuperTest03 {
         v.shop();
     }
 }
-class User{
+
+class User {
     String name;
 
     public User() {
@@ -25,14 +26,16 @@ class User{
     }
 
 }
-class Vip extends User{
+
+class Vip extends User {
     public Vip() {
     }
 
     public Vip(String name) {
         super(name);
     }
-    public void shop(){
+
+    public void shop() {
         System.out.println(this.name);
         System.out.println(super.name);
         System.out.println(name);

@@ -7,7 +7,7 @@
  * <p>
  * Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.
  */
-public class Cat extends Pet{
+public class Cat extends Pet {
     @Override
     public void eat() {
         System.out.println("猫吃雨");

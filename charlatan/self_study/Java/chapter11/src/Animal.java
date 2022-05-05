@@ -8,7 +8,7 @@
  * Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.
  */
 public class Animal {
-    public void move(){
+    public void move() {
         System.out.println("动物移动，提供重写");
     }
 }

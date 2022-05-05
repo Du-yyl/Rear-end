@@ -11,7 +11,7 @@ public class OverrideTest02 {
     public static void main(String[] args) {
         Data d1 = new Data();
         System.out.println(d1);
-        Data d2 = new Data(2000,10,1900);
+        Data d2 = new Data(2000, 10, 1900);
         System.out.println(d2);
     }
 }

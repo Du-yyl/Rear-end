@@ -14,7 +14,7 @@ public class SuperTest04 {
     }
 }
 
-class User1{
+class User1 {
     String name;
 
     public User1() {
@@ -26,16 +26,19 @@ class User1{
     }
 
 }
-class Vip1 extends User1{
-//    在子类中如果想访问父类中的同名属性，必须使用 super
-String name;
+
+class Vip1 extends User1 {
+    //    在子类中如果想访问父类中的同名属性，必须使用 super
+    String name;
+
     public Vip1() {
     }
 
     public Vip1(String name) {
         super(name);
     }
-    public void shop(){
+
+    public void shop() {
         System.out.println(this.name);
         System.out.println(super.name);
         System.out.println(name);

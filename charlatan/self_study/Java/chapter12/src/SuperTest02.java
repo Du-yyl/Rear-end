@@ -14,7 +14,7 @@ public class SuperTest02 {
     }
 }
 
-class A2{
+class A2 {
     private int id;
     private String name;
 
@@ -42,7 +42,8 @@ class A2{
     public A2() {
     }
 }
-class B2 extends A2{
+
+class B2 extends A2 {
     private int no;
 
     public B2() {

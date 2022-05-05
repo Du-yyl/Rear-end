@@ -8,8 +8,9 @@
  * Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.
  */
 public class VarTest04 {
-//    成员变量
+    //    成员变量
     int num = 20;
+
     public static void main(String[] args) {
 //        局部变量
         int num = 30;

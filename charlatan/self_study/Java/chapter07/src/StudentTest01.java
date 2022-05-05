@@ -10,7 +10,7 @@
 public class StudentTest01 {
     public static void main(String[] args) {
         Student s1 = new Student();
-        Student s2 = new Student(1,"张三","背景");
+        Student s2 = new Student(1, "张三", "背景");
         System.out.println(s1.getName());
         s1.setNo(100);
         System.out.println(s1.getNo());

@@ -17,13 +17,14 @@ public class MethodTest01 {
     }
 }
 
-class User{
-//    静态方法，通过‘类名.’的方式进行调用
-    public static void doSome(){
+class User {
+    //    静态方法，通过‘类名.’的方式进行调用
+    public static void doSome() {
         System.out.println("doSome");
     }
-//    实例方法，通过‘引用.’的方式调用
-    public void doOther(){
+
+    //    实例方法，通过‘引用.’的方式调用
+    public void doOther() {
         System.out.println("doOther");
     }
 }
