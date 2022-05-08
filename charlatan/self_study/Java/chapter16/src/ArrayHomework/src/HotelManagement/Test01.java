@@ -1,5 +1,7 @@
 package HotelManagement;
 
+import java.util.Scanner;
+
 /**
  * time :2022/5/7 19:02 17
  * ClassName :Test01
@@ -31,6 +33,7 @@ public class Test01 {
         h.checkOut(202);
         h.checkOut(202);
         h.checkOut(202);
+        Scanner s = new Scanner(System.in);
         h.printHome();
     }
 }
