@@ -14,7 +14,7 @@ public class Test02 {
         Animal dog = new Dog();
         Animal bird = new Bird();
 /*
-        fixme:在定义不同的动物的时候，直接使用 Animal 进行实例化，符合 OCP 原则，但是这并不能确定所有的动物都是会飞的，
+        fixm e:在定义不同的动物的时候，直接使用 Animal 进行实例化，符合 OCP 原则，但是这并不能确定所有的动物都是会飞的，
          如果直接调用指定的动物可能不会飞，但是如果这个动物能飞，也是不能通过创建的 Animal 对象直接进行调用，也要进行强制转型，如下：
  */
         cat.move();
