@@ -14,6 +14,7 @@ class Except extends Exception {
     String value;
 
     public Except(String value) {
+        super(value);
         this.value = value;
     }
 
@@ -30,6 +31,7 @@ class RunExcept extends RuntimeException {
     String value;
 
     public RunExcept(String value) {
+        super(value);
         this.value = value;
     }
 
@@ -58,5 +60,17 @@ class doOther {
         System.out.println("运行时异常构造函数");
 
         throw re;
+    }
+}
+
+/**
+ * 直接让一个类继承异常，并且实现其中的构造方法，调用父类的有参有参构造
+ */
+class TestExcept extends Exception {
+    public TestExcept() {
+    }
+
+    public TestExcept(String s) {
+        super(s);
     }
 }

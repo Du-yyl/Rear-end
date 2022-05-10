@@ -23,5 +23,7 @@ public class ExceptionTest09 {
         }
         System.out.println("这是最后运行的语句");
 
+        TestExcept te = new TestExcept("这是编译时异常");
+        te.printStackTrace();
     }
 }
