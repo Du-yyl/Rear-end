@@ -49,7 +49,7 @@
 											"font": "Arial;13;0",
 											"left": 501,
 											"top": 205,
-											"width": 74.32080078125,
+											"width": 78.68798828125,
 											"height": 13,
 											"text": "«interface»"
 										},
@@ -62,7 +62,7 @@
 											"font": "Arial;13;1",
 											"left": 501,
 											"top": 220,
-											"width": 74.32080078125,
+											"width": 78.68798828125,
 											"height": 13,
 											"text": "Map"
 										},
@@ -97,7 +97,7 @@
 									"font": "Arial;13;0",
 									"left": 496,
 									"top": 200,
-									"width": 84.32080078125,
+									"width": 88.68798828125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGArX8PVN/Tgqg="
@@ -181,7 +181,7 @@
 							"containerChangeable": true,
 							"left": 496,
 							"top": 200,
-							"width": 108.32080078125,
+							"width": 112.68798828125,
 							"height": 49,
 							"stereotypeDisplay": "decoration-label",
 							"nameCompartment": {
@@ -231,7 +231,7 @@
 											"font": "Arial;13;0",
 											"left": 245,
 											"top": 229,
-											"width": 67.7890625,
+											"width": 72.53076171875,
 											"height": 13
 										},
 										{
@@ -243,7 +243,7 @@
 											"font": "Arial;13;1",
 											"left": 245,
 											"top": 244,
-											"width": 67.7890625,
+											"width": 72.53076171875,
 											"height": 13,
 											"text": "HashMap"
 										},
@@ -256,7 +256,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -256,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -276,7 +276,7 @@
 									"font": "Arial;13;0",
 									"left": 240,
 									"top": 224,
-									"width": 77.7890625,
+									"width": 82.53076171875,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGArYACrOAAF/w="
@@ -303,7 +303,7 @@
 									"font": "Arial;13;0",
 									"left": 240,
 									"top": 262,
-									"width": 101.7890625,
+									"width": 106.53076171875,
 									"height": 10
 								},
 								{
@@ -318,7 +318,7 @@
 									"font": "Arial;13;0",
 									"left": 240,
 									"top": 272,
-									"width": 101.7890625,
+									"width": 106.53076171875,
 									"height": 10
 								},
 								{
@@ -356,7 +356,7 @@
 							"containerChangeable": true,
 							"left": 240,
 							"top": 224,
-							"width": 101.7890625,
+							"width": 106.53076171875,
 							"height": 58,
 							"stereotypeDisplay": "decoration-label",
 							"nameCompartment": {
@@ -405,7 +405,7 @@
 											"font": "Arial;13;0",
 											"left": 517,
 											"top": 413,
-											"width": 72.130859375,
+											"width": 75.95849609375,
 											"height": 13
 										},
 										{
@@ -418,7 +418,7 @@
 											"font": "Arial;13;1",
 											"left": 517,
 											"top": 428,
-											"width": 72.130859375,
+											"width": 75.95849609375,
 											"height": 13,
 											"text": "Hashtable"
 										},
@@ -433,7 +433,7 @@
 											"font": "Arial;13;0",
 											"left": 32,
 											"top": 384,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -456,7 +456,7 @@
 									"font": "Arial;13;0",
 									"left": 512,
 									"top": 408,
-									"width": 82.130859375,
+									"width": 85.95849609375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGArYA+DOAsMew="
@@ -484,7 +484,7 @@
 									"font": "Arial;13;0",
 									"left": 512,
 									"top": 446,
-									"width": 106.130859375,
+									"width": 109.95849609375,
 									"height": 10
 								},
 								{
@@ -500,7 +500,7 @@
 									"font": "Arial;13;0",
 									"left": 512,
 									"top": 456,
-									"width": 106.130859375,
+									"width": 109.95849609375,
 									"height": 10
 								},
 								{
@@ -543,7 +543,7 @@
 							"containerChangeable": true,
 							"left": 512,
 							"top": 408,
-							"width": 106.130859375,
+							"width": 109.95849609375,
 							"height": 58,
 							"stereotypeDisplay": "decoration-label",
 							"nameCompartment": {
@@ -582,9 +582,9 @@
 										"$ref": "AAAAAAGArYCBm+BTHEc="
 									},
 									"font": "Arial;13;0",
-									"left": 400,
+									"left": 402,
 									"top": 217,
-									"width": 33.591796875,
+									"width": 35.64208984375,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -605,7 +605,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 414,
+									"left": 417,
 									"top": 202,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -626,7 +626,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 419,
+									"left": 422,
 									"top": 246,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -645,7 +645,7 @@
 								"$ref": "AAAAAAGArYACrN/+YM0="
 							},
 							"lineStyle": 1,
-							"points": "342:246;495:230",
+							"points": "347:246;495:230",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGArYCBnOBVa7A="
@@ -677,9 +677,9 @@
 										"$ref": "AAAAAAGArYCFTuBkD1w="
 									},
 									"font": "Arial;13;0",
-									"left": 525,
+									"left": 526,
 									"top": 322,
-									"width": 33.591796875,
+									"width": 35.64208984375,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -700,7 +700,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 526,
+									"left": 528,
 									"top": 323,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -721,7 +721,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 570,
+									"left": 572,
 									"top": 321,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -740,7 +740,7 @@
 								"$ref": "AAAAAAGArYA+DOAqDXY="
 							},
 							"lineStyle": 1,
-							"points": "562:407;551:249",
+							"points": "564:407;553:249",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGArYCFTuBmfBc="
@@ -774,7 +774,7 @@
 							"font": "Arial;13;0",
 							"left": 368,
 							"top": 400,
-							"width": 136,
+							"width": 137.42919921875,
 							"height": 103,
 							"text": "Hashtable集合底层也 是哈希数据结构，是 线程安全的，其中所 有的方法都带有 synchronized关键 字，效率较低，使用 较少"
 						},
@@ -807,7 +807,7 @@
 											"font": "Arial;13;0",
 											"left": 677,
 											"top": 325,
-											"width": 77.1708984375,
+											"width": 82.998046875,
 											"height": 13,
 											"text": "«interface»"
 										},
@@ -820,7 +820,7 @@
 											"font": "Arial;13;1",
 											"left": 677,
 											"top": 340,
-											"width": 77.1708984375,
+											"width": 82.998046875,
 											"height": 13,
 											"text": "SortedMap"
 										},
@@ -834,7 +834,7 @@
 											"font": "Arial;13;0",
 											"left": -32,
 											"top": 144,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -855,7 +855,7 @@
 									"font": "Arial;13;0",
 									"left": 672,
 									"top": 320,
-									"width": 87.1708984375,
+									"width": 92.998046875,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGArYUYB+CQB/w="
@@ -939,7 +939,7 @@
 							"containerChangeable": true,
 							"left": 672,
 							"top": 320,
-							"width": 111.1708984375,
+							"width": 116.998046875,
 							"height": 49,
 							"stereotypeDisplay": "decoration-label",
 							"nameCompartment": {
@@ -969,8 +969,8 @@
 							"font": "Arial;13;0",
 							"left": 424,
 							"top": 88,
-							"width": 258.97412109375,
-							"height": 118,
+							"width": 264.52197265625,
+							"height": 105,
 							"text": "Map集合和Collection集合没有任何关系                       Map集合以Key和Value的形式进行存储元素                       Key和Value都是存储Java对象的内存地址     所有Map集合的Key的特点：无序不可重复\n "
 						},
 						{
@@ -993,9 +993,9 @@
 										"$ref": "AAAAAAGArYf9l+DHQxU="
 									},
 									"font": "Arial;13;0",
-									"left": 648,
+									"left": 649,
 									"top": 279,
-									"width": 33.591796875,
+									"width": 35.64208984375,
 									"height": 13,
 									"alpha": 3.6572482342448502,
 									"distance": 26.076809620810597,
@@ -1016,7 +1016,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 621,
+									"left": 623,
 									"top": 302,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1037,7 +1037,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 646,
+									"left": 648,
 									"top": 265,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1056,7 +1056,7 @@
 								"$ref": "AAAAAAGArYUYBuCO2iY="
 							},
 							"lineStyle": 1,
-							"points": "690:319;586:249",
+							"points": "692:319;588:249",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGArYf9mODKqGA="
@@ -1097,7 +1097,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 629,
-											"width": 74.3017578125,
+											"width": 77.54541015625,
 											"height": 13
 										},
 										{
@@ -1109,7 +1109,7 @@
 											"font": "Arial;13;1",
 											"left": 525,
 											"top": 644,
-											"width": 74.3017578125,
+											"width": 77.54541015625,
 											"height": 13,
 											"text": "Properties"
 										},
@@ -1123,7 +1123,7 @@
 											"font": "Arial;13;0",
 											"left": 64,
 											"top": 368,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -1144,7 +1144,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 624,
-									"width": 84.3017578125,
+									"width": 87.54541015625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGArYi6u+Dhkb4="
@@ -1171,7 +1171,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 662,
-									"width": 108.3017578125,
+									"width": 111.54541015625,
 									"height": 10
 								},
 								{
@@ -1186,7 +1186,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 672,
-									"width": 108.3017578125,
+									"width": 111.54541015625,
 									"height": 10
 								},
 								{
@@ -1226,7 +1226,7 @@
 							"containerChangeable": true,
 							"left": 520,
 							"top": 624,
-							"width": 108.3017578125,
+							"width": 111.54541015625,
 							"height": 58,
 							"stereotypeDisplay": "decoration-label",
 							"nameCompartment": {
@@ -1265,9 +1265,9 @@
 										"$ref": "AAAAAAGArYj+yOEIsOI="
 									},
 									"font": "Arial;13;0",
-									"left": 537,
+									"left": 538,
 									"top": 538,
-									"width": 33.591796875,
+									"width": 35.64208984375,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1288,7 +1288,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 538,
+									"left": 540,
 									"top": 539,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1309,7 +1309,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 582,
+									"left": 584,
 									"top": 537,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1328,7 +1328,7 @@
 								"$ref": "AAAAAAGArYi6u+DfjTA="
 							},
 							"lineStyle": 1,
-							"points": "572:623;565:466",
+							"points": "574:623;567:466",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGArYj+yOELn3s="
@@ -1369,7 +1369,7 @@
 											"font": "Arial;13;0",
 											"left": 709,
 											"top": 429,
-											"width": 62.74267578125,
+											"width": 68.3095703125,
 											"height": 13
 										},
 										{
@@ -1381,7 +1381,7 @@
 											"font": "Arial;13;1",
 											"left": 709,
 											"top": 444,
-											"width": 62.74267578125,
+											"width": 68.3095703125,
 											"height": 13,
 											"text": "TreeMap"
 										},
@@ -1395,7 +1395,7 @@
 											"font": "Arial;13;0",
 											"left": 16,
 											"top": 144,
-											"width": 73.67724609375,
+											"width": 82.56396484375,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -1416,7 +1416,7 @@
 									"font": "Arial;13;0",
 									"left": 704,
 									"top": 424,
-									"width": 72.74267578125,
+									"width": 78.3095703125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGArYwFzuExFns="
@@ -1443,7 +1443,7 @@
 									"font": "Arial;13;0",
 									"left": 704,
 									"top": 462,
-									"width": 96.74267578125,
+									"width": 102.3095703125,
 									"height": 10
 								},
 								{
@@ -1458,7 +1458,7 @@
 									"font": "Arial;13;0",
 									"left": 704,
 									"top": 472,
-									"width": 96.74267578125,
+									"width": 102.3095703125,
 									"height": 10
 								},
 								{
@@ -1498,7 +1498,7 @@
 							"containerChangeable": true,
 							"left": 704,
 							"top": 424,
-							"width": 96.74267578125,
+							"width": 102.3095703125,
 							"height": 58,
 							"stereotypeDisplay": "decoration-label",
 							"nameCompartment": {
@@ -1537,9 +1537,9 @@
 										"$ref": "AAAAAAGArYwvleFYTkI="
 									},
 									"font": "Arial;13;0",
-									"left": 741,
+									"left": 742,
 									"top": 396,
-									"width": 33.591796875,
+									"width": 35.64208984375,
 									"height": 13,
 									"alpha": -2.1025197666140354,
 									"distance": 19.72308292331602,
@@ -1560,7 +1560,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 709,
+									"left": 711,
 									"top": 396,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1581,7 +1581,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 753,
+									"left": 755,
 									"top": 386,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1600,7 +1600,7 @@
 								"$ref": "AAAAAAGArYwFzuEvZhc="
 							},
 							"lineStyle": 1,
-							"points": "745:423;733:369",
+							"points": "747:423;735:369",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGArYwvleFaVSA="
@@ -1621,7 +1621,7 @@
 							"font": "Arial;13;0",
 							"left": 712,
 							"top": 264,
-							"width": 240.40087890625,
+							"width": 240.5087890625,
 							"height": 51,
 							"text": "SortedSet集合的Key存储元素的特点： 无序不可重复，另外放在SortedMap集 合Key部分的元素会自动按大小进行排序"
 						},
@@ -1647,7 +1647,7 @@
 							"font": "Arial;13;0",
 							"left": 376,
 							"top": 584,
-							"width": 144,
+							"width": 145.33203125,
 							"height": 152,
 							"text": "Properties是线程安全 的，因为继承的是 Hashtable，另外存储 元素的时候也是按照 Key和Value的形式进行 存储，并且存储的时候 仅支持String类型，不 支持其他类型                        这个类被称为属性类"
 						}
