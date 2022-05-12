@@ -19,6 +19,5 @@ public class GenericTest02 {
          */
 //        这里的 ArrayList 类型会自动推断，不过只有在JDK8之后
         List<Animal> list = new ArrayList<>();
-
     }
 }
