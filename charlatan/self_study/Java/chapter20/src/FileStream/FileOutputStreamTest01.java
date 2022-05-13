@@ -1,10 +1,12 @@
+package FileStream;
+
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
  * time :2022/5/13 00:01 53
- * ClassName :FileOutputStreamTest01
+ * ClassName :FileStream.FileOutputStreamTest01
  * Package :PACKAGE_NAME
  *
  * @author :charlatan

@@ -1,27 +1,42 @@
+package FileStream;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**
- * time :2022/5/12 23:44 32
- * ClassName :FileInputStreamTest04
+ * time :2022/5/12 23:12 16
+ * ClassName :FileStream.FileInputStreamTest02
  * Package :PACKAGE_NAME
  *
  * @author :charlatan
  * <p>
  * Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.
  */
-public class FileInputStreamTest04 {
+public class FileInputStreamTest02 {
     public static void main(String[] args) {
+        /*
+        int read(byte[] b)
+        一次最多读取 b.length 的字节
+         */
         FileInputStream fis = null;
         try {
             fis = new FileInputStream(".\\src\\charlatan\\self_study\\Java\\chapter20\\static\\FileInputStreamTest");
-            fis.read();
-//            这个方法可以返回还剩下多少个可以读取
-            System.out.println(fis.available());
-//            这个方法可以跳过多少个不读取
-            fis.skip(1);
-            System.out.println((char) fis.read());
+//            byte[] bytes = new byte[50];
+//            int len = fis.read(bytes);
+//            for (int i = 0; i < len; i++) {
+//                System.out.print((char) bytes[i]);
+//            }
+            /*
+            这里的数组如果读不到直接返回的内容是 -1
+             */
+            byte[] bytes = new byte[5];
+            int len;
+            while ((len = fis.read(bytes)) != -1) {
+                for (int i = 0; i < len; i++) {
+                    System.out.print((char) bytes[i]);
+                }
+            }
         } catch (FileNotFoundException e) {
             System.out.println("路径错误");
             e.printStackTrace();

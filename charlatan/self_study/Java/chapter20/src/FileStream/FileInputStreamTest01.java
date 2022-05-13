@@ -1,39 +1,33 @@
+package FileStream;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**
- * time :2022/5/12 23:12 16
- * ClassName :FileInputStreamTest02
+ * time :2022/5/12 22:50 28
+ * ClassName :FileStream.FileInputStreamTest01
  * Package :PACKAGE_NAME
  *
  * @author :charlatan
  * <p>
  * Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.
  */
-public class FileInputStreamTest02 {
+public class FileInputStreamTest01 {
     public static void main(String[] args) {
         /*
-        int read(byte[] b)
-        一次最多读取 b.length 的字节
+        java.io.FileInputStream:
+            1、文件字节输入流，万能的，任何类型的文件都可以采用这个流来读。
+            2、字节的方式，完成输入的操作，完成读的操作（硬盘---> 内存）
+        一次读取一个字节，和硬盘频繁的交互，大部分性能都耗费在硬盘和内存的交互上了
          */
         FileInputStream fis = null;
         try {
-            fis = new FileInputStream(".\\src\\charlatan\\self_study\\Java\\chapter20\\static\\FileInputStreamTest");
-//            byte[] bytes = new byte[50];
-//            int len = fis.read(bytes);
-//            for (int i = 0; i < len; i++) {
-//                System.out.print((char) bytes[i]);
-//            }
-            /*
-            这里的数组如果读不到直接返回的内容是 -1
-             */
-            byte[] bytes = new byte[5];
-            int len;
-            while ((len = fis.read(bytes)) != -1) {
-                for (int i = 0; i < len; i++) {
-                    System.out.print((char) bytes[i]);
-                }
+            fis = new FileInputStream("D:\\Rear-end\\src\\charlatan\\self_study\\Java\\chapter20\\static\\FileInputStreamTest");
+            int bytes = 0;
+//            循环读取数据
+            while ((bytes = fis.read()) != -1) {
+                System.out.print((char) bytes);
             }
         } catch (FileNotFoundException e) {
             System.out.println("路径错误");
@@ -42,6 +36,7 @@ public class FileInputStreamTest02 {
             System.out.println("IO数据异常");
             e.printStackTrace();
         } finally {
+//            如果定义的文件的读取对象是空的话是没必要关闭的
             if (fis != null) {
                 try {
                     System.out.println("流关闭成功");

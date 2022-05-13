@@ -1,38 +1,42 @@
-import java.io.FileInputStream;
+package FileStream;
+
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * time :2022/5/12 23:37 08
- * ClassName :FileInputStreamTest03
+ * time :2022/5/13 17:06 47
+ * ClassName :FileReader
  * Package :PACKAGE_NAME
  *
  * @author :charlatan
  * <p>
  * Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.
  */
-public class FileInputStreamTest03 {
+public class FileReaderTest01 {
     public static void main(String[] args) {
-        FileInputStream fis = null;
+        FileReader fr = null;
         try {
-            fis = new FileInputStream(".\\src\\charlatan\\self_study\\Java\\chapter20\\static\\FileInputStreamTest");
-            byte[] bytes = new byte[5];
-            int len;
-            while ((len = fis.read(bytes)) != -1) {
-//                通过字符串中的方法，有多少内容就转换多少内容
-                System.out.print(new String(bytes, 0, len));
+            fr = new FileReader(".\\src\\charlatan\\self_study\\Java\\chapter20\\static\\输出测试文件.txt");
+            char[] chars = new char[3];
+            int len = 0;
+            if (fr.ready()) {
+                while ((len = fr.read(chars)) != -1) {
+                    System.out.print(new String(chars, 0, len));
+                }
             }
+
         } catch (FileNotFoundException e) {
-            System.out.println("路径错误");
+            System.out.println("文件路径错误");
             e.printStackTrace();
         } catch (IOException e) {
-            System.out.println("IO数据异常");
+            System.out.println("读取失败");
             e.printStackTrace();
         } finally {
-            if (fis != null) {
+            if (fr != null) {
                 try {
+                    fr.close();
                     System.out.println("流关闭成功");
-                    fis.close();
                 } catch (IOException e) {
                     System.out.println("流关闭失败");
                     e.printStackTrace();
