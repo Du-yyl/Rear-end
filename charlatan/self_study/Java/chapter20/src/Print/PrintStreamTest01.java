@@ -19,6 +19,7 @@ public class PrintStreamTest01 {
 //        标准输出流打印到控制台，不需要关闭
         ps.println(123);
 //        这个方法可以改变默认的输出方向
+//        更改后，直接会向指定的文件中打印
         System.setOut(new PrintStream(new FileOutputStream("D:\\Rear-end\\src\\charlatan\\self_study\\Java\\chapter20\\static\\Output\\Test05.log", true)));
         ps.println("测试内容");
         System.out.println("测试");
