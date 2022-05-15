@@ -1,6 +1,8 @@
+package Thread;
+
 /**
  * time :2022/5/14 21:34 45
- * ClassName :ThreadTest01
+ * ClassName :Thread.ThreadTest01
  * Package :PACKAGE_NAME
  *
  * @author :charlatan
@@ -12,7 +14,7 @@ public class ThreadTest01 {
 //        创建一个线程对象
         Test01 t = new Test01();
 //        这种方式只是一种普通的调用
-//        Test01.run();
+//        Thread.Test01.run();
 //        这种方式是开启一个多线程，并且自动调用 run 方法，和主线程中调用的main方法的调用一样
         t.start();
         for (int i = 0; i < 1000; i++) {

@@ -1,6 +1,8 @@
+package Thread;
+
 /**
  * time :2022/5/14 21:48 22
- * ClassName :ThreadTest02
+ * ClassName :Thread.ThreadTest02
  * Package :PACKAGE_NAME
  *
  * @author :charlatan
