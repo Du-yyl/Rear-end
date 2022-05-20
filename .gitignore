@@ -10,6 +10,7 @@ bin-release/
 learningMaterials/
 out/
 lib/
+drive/
 
 # Executables
 *.swf
