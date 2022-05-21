@@ -31,6 +31,7 @@ public class user_loginTest {
                     String userInfo = mp.login(s, map.get(s)).trim();
                     if (!"".equals(userInfo)) {
                         show_page.login_suc(userInfo);
+                        System.exit(0);
                     } else {
                         show_page.login_err();
                     }
