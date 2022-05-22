@@ -44,7 +44,7 @@ public class DBUtil {
      * @param stmt 数据库操作对象
      * @param rs   数据库结果集
      */
-    public static void closeAll(Connection conn, Statement stmt, ResultSet rs) {
+    public static void close(Connection conn, Statement stmt, ResultSet rs) {
         if (rs != null) {
             try {
                 rs.close();
@@ -52,7 +52,7 @@ public class DBUtil {
                 e.printStackTrace();
             }
         }
-        closeAll(conn, stmt);
+        close(conn, stmt);
     }
 
     /**
@@ -61,7 +61,7 @@ public class DBUtil {
      * @param conn 数据库连接对象
      * @param stmt 数据库操作对象
      */
-    public static void closeAll(Connection conn, Statement stmt) {
+    public static void close(Connection conn, Statement stmt) {
         if (stmt != null) {
             try {
                 stmt.close();
@@ -69,12 +69,33 @@ public class DBUtil {
                 e.printStackTrace();
             }
         }
+        close(conn);
+    }
+
+    /**
+     * 关闭资源
+     *
+     * @param conn 数据库连接对象
+     */
+    public static void close(Connection conn) {
         if (conn != null) {
             try {
                 conn.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+        }
+    }
+
+    /**
+     * 试条件回滚
+     *
+     * @param conn 要回滚的连接
+     * @throws SQLException 将异常交给调用者处理
+     */
+    public static void connRollback(Connection conn) throws SQLException {
+        if (conn != null) {
+            conn.rollback();
         }
     }
 }

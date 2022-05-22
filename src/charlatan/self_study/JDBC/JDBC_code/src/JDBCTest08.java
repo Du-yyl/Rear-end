@@ -21,7 +21,6 @@ public class JDBCTest08 {
             String sql = "select username from t_user where username like ?";
             ps = conn.prepareStatement(sql);
             ps.setString(1, "%a_");
-            System.out.println(sql);
             rs = ps.executeQuery();
             while (rs.next()) {
                 System.out.println(rs.getString("username"));
@@ -29,7 +28,7 @@ public class JDBCTest08 {
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            DBUtil.closeAll(conn, ps, rs);
+            DBUtil.close(conn, ps, rs);
         }
 
     }
