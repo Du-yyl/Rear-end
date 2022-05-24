@@ -18,10 +18,6 @@ import java.io.IOException;
 public class AddServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String username = req.getParameter("username");
-        String id = req.getParameter("id");
-        Integer iid = Integer.parseInt(id);
-        System.out.println(username);
-        System.out.println(iid);
+        System.out.println("hello,servlet");
     }
 }
