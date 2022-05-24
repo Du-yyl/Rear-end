@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!--    添加配置项和映射项-->
+    <servlet>
+        <servlet-name>addServlet</servlet-name>
+        <servlet-class>com.servlets.AddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addServlet</servlet-name>
+        <url-pattern>/Test01</url-pattern>
+    </servlet-mapping>
+    <!--
+        1. 用户发送的请求会通过 action 中定义的指向内容，进行导向（这里指向的是 add ）
+        2. 因为定义的内容是 add 选项，会在 servlet-mapping 中进行不同内容的判断是否存在
+        3. 找到 add 中对应的内容，相应的 servlet-name 是 addServlet 选项
+        4. 接下来通过 addServlet 找对应的匹配项，这个内容在 com.servlets.AddServlet 中进行指定
+        5. 因为用户发送的是 post 请求，所以会调用指定对象的 doPost 方法
+    -->
+</web-app>

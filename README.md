@@ -29,4 +29,6 @@ charlatan
 
 - [x] MySQL
 
-- [ ] JDBC
+- [x] JDBC
+
+- [ ] JavaWeb
