@@ -55,7 +55,6 @@ public class servletTest01 implements Servlet {
                 out.print("<h1>" + str + "</h1>");
             }
         } catch (ClassNotFoundException | SQLException e) {
-
             e.printStackTrace();
         } finally {
             if (rs != null) {
