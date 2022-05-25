@@ -3,12 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
     <servlet>
         <servlet-name>ServletTest01</servlet-name>
         <servlet-class>com.servletTest01</servlet-class>
+        <!--
+                这里需要一个正整数，并且使用这句话会自动构建
+                这里的参数必须是一个正整数，并且参数越小优先级越高
+        -->
+        <load-on-startup>0</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletTest01</servlet-name>
         <url-pattern>/servlet/ServletTest01_HTML</url-pattern>
     </servlet-mapping>
+
 </web-app>

@@ -1,5 +1,7 @@
 package com;
 
+import org.jetbrains.annotations.NotNull;
+
 import javax.servlet.*;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,7 +16,15 @@ import java.sql.*;
  * <p>
  * Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.
  */
+
+/*
+这种方式直接实现了接口中的所有内容，但是不是所有的内容都是所需要的，所以不建议使用这种方式进行实现，可以使用实现类进行处理
+通过实现类，先指定要实现的方法， 然后通过这个类进行继承，这也是进行继承 HttpServlet
+ */
 public class servletTest01 implements Servlet {
+    public servletTest01() {
+        System.out.println("无参数构造方法执行");
+    }
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
@@ -27,7 +37,7 @@ public class servletTest01 implements Servlet {
     }
 
     @Override
-    public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
+    public void service(ServletRequest request, @NotNull ServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         Connection conn = null;
