@@ -6,6 +6,23 @@
     <servlet>
         <servlet-name>printConfig</servlet-name>
         <servlet-class>com.servlets.ServletTest01</servlet-class>
+        <!--        这里可以通过这个配置进行配置信息的初始化操作-->
+        <init-param>
+            <param-name>Driver</param-name>
+            <param-value>com.mysql.cj.jdbc.Driver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>url</param-name>
+            <param-value>jdbc:mysql://localhost:3306</param-value>
+        </init-param>
+        <init-param>
+            <param-name>user</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>123456</param-value>
+        </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>printConfig</servlet-name>
