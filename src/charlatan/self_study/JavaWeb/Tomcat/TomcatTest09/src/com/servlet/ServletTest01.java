@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Date;
 import java.util.Enumeration;
 import java.util.Map;
 import java.util.Set;
@@ -55,5 +56,14 @@ public class ServletTest01 extends HttpServlet {
 //        这种方式只会拿到指定内容数组的第一个元素【这种方式更加常用】
         writer.print(request.getParameter("username") + "<br>");
         writer.print(request.getParameter("password") + "<br>");
+
+//        向 request 域中绑定数据
+//        这里进行不同的定义，只能在本类中进行访问，在其他做作用域中不能访问
+        Date now = new Date();
+        System.out.println(now);
+        request.setAttribute("nowTime", now);
+
+        Object time = request.getAttribute("nowTime");
+        writer.print(time);
     }
 }

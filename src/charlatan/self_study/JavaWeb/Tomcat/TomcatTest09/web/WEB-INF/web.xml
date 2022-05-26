@@ -20,4 +20,12 @@
         <servlet-name>login</servlet-name>
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>test01</servlet-name>
+        <servlet-class>com.servlet.ServletTest02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test01</servlet-name>
+        <url-pattern>/test01</url-pattern>
+    </servlet-mapping>
 </web-app>
