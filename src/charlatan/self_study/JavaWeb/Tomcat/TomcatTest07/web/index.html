@@ -1,0 +1,50 @@
+<!--
+  ~ Time :2022/5/26 10:35 50
+  ~ Name :index.html
+  ~ Path :src/charlatan/self_study/JavaWeb/Tomcat/TomcatTest07/web
+  ~ ProjectName :Rear-end
+  ~ Author :charlatan
+  ~
+  ~  Il n'ya qu'un héroïsme au monde :
+  ~     c'est de voir le monde tel qu'il est et de l'aimer.
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1,
+     user-scalable=no" name="viewport">
+    <title>Title</title>
+
+</head>
+<body>
+<!--    这里要访问到额路径要带上这个应用的根路径，通过应用的根路径再访问指定链接的内容 -->
+<form action="/serv/userServ" method="get">
+    <h1>这是GET方式提交</h1>
+    <label>
+        用户名：
+        <input type="text" name="username" value="张三">
+    </label>
+    <label>
+        密码：
+        <input type="password" name="password" value="123456">
+    </label>
+    <input type="submit" value="登录">
+</form>
+<br>
+<form action="/serv/userServ" method="post">
+    <h1>这是POST方式提交</h1>
+    <label>
+        用户名：
+        <input type="text" name="username" value="张三">
+    </label>
+    <label>
+        密码：
+        <input type="password" name="password" value="123456">
+    </label>
+    <input type="submit" value="登录">
+</form>
+</body>
+
+</html>

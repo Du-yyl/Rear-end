@@ -3,6 +3,7 @@ package com.servlets;
 import javax.servlet.*;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Enumeration;
 
 /**
  * time :2022/5/25 22:29 08
@@ -32,5 +33,21 @@ public class ServletTest02 extends GenericServlet {
         application.log("这是测试的内容");
 
         application.log("这是异常信息", new Exception("这里是异常信息"));
+
+
+        /*
+        ServletContext 中数据的增删改
+         */
+        ServletContext context = this.getServletContext();
+        User user = new User("jock");
+//        向全局配置中添加指定属性
+        context.setAttribute("user", user);
+//        获取全部内容的配置的名字
+        Enumeration<String> name = context.getAttributeNames();
+        while (name.hasMoreElements()) {
+            String flag = name.nextElement();
+//            通过配置的名字获取对应的属性配置项【如果没有配置指定属性会返回 null 】
+            out.print(flag + " = " + context.getAttribute(flag) + "<br>");
+        }
     }
 }
